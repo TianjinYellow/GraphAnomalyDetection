@@ -447,7 +447,7 @@ def cosine_similarity( a, b):
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--C', default=5, type=float)
+    parser.add_argument('--C', default=3, type=float)
     parser.add_argument('--R', default=0.2, type=float)
     parser.add_argument('--S', default=0.2, type=float)
     parser.add_argument('--filename', default='Amazon', choices=['Enron','Amazon','Disney','BlogCatalog','Flickr','ACM'])
